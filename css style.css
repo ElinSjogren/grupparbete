@@ -1,0 +1,48 @@
+body {
+    background-color: #1c5870;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    min-height: 100vh;
+}
+
+.checklista {
+    max-width: 80px;        
+    padding: 50px;
+    border-radius: 100px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: #c73838;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+}
+
+
+li {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+input[type="number"] {
+    margin-left: 20px;
+    padding: 5px;
+    width: 40px;
+}
+
+label {
+    display:block;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 5px;
+}
